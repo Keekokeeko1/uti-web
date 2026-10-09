@@ -142,6 +142,24 @@ ul {
     display: block;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-divider {
+    width: 1px;
+    align-self: stretch;
+    background-color: #e5e7eb;
+}
+
+.jctrans-badge {
+    max-height: 60px;
+    width: auto;
+    display: block;
+}
+
 .nav-menu ul {
     display: flex;
     gap: 30px;
@@ -588,6 +606,14 @@ ul {
     
     .site-logo {
         max-height: 80px; /* smaller on mobile so it doesn't take too much vertical space */
+    }
+
+    .logo {
+        gap: 10px;
+    }
+
+    .jctrans-badge {
+        max-height: 42px;
     }
     
     .nav-menu, .header-action {
